@@ -1,0 +1,51 @@
+#header {
+    width: 140px;
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    right: -100px;
+    transition-duration: 200ms;
+}
+
+#header.expand {
+    right: 0px;
+}
+
+#header .arrow {
+    color: var(--interact);
+    width: 40px;
+    height: auto;
+    margin-top: 15px;
+    cursor: pointer;
+    transition-duration: 200ms;
+}
+
+#header .arrow:hover {
+    color: var(--active);
+}
+
+#header .arrow.expand {
+    transform: rotate(180deg);
+}
+
+#header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#header li {
+    margin: 20px 0;
+}
+
+#header a {
+    text-decoration: none;
+    color: var(--interact);
+    transition-duration: 200ms;
+}
+
+#header a.active, #header a:hover {
+    color: var(--active);
+}
