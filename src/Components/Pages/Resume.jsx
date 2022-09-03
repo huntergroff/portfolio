@@ -1,5 +1,6 @@
 import React, { useRef } from 'react'
 import '../../Styles/Resume.css'
+import { TbFileDownload } from 'react-icons/tb'
 
 const Resume = () => {
    const educationRef = useRef(null)
@@ -26,8 +27,12 @@ const Resume = () => {
       <button className='sidenav-button' onClick={educationScroll}>Education</button>
     </div>
     <div id="resume">
-      <h1 class="heading">Resume</h1>
-      <div className='resume-container'>
+      <h1 className="heading">Resume</h1>
+        <div className='resume-container'>
+        <div className='download-button'>
+          <TbFileDownload className='download-icon'/>
+          <h1 className='download-text'>download</h1> 
+        </div>
         <div className='resume-section' id="education" ref={educationRef}>
           <h2>Education</h2>
           <div className='title-and-date'>
