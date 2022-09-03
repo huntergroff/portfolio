@@ -4,3 +4,67 @@
     --interact: #29778E;
     --active: #E26200;
 }
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y:inherit;
+    font-family: acumin-pro, sans-serif;
+}
+
+.heading {
+    font-size: 200px;
+    line-height: 170px;
+    text-transform: uppercase;
+    color: var(--text);
+    font-weight: 700;
+    position: relative;
+    top: -40px;
+    left: -25px;
+    margin: 0;
+    display: block;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: var(--interact);
+    transition-duration: 200ms;
+}
+
+a.active, a:hover {
+    color: var(--active);
+}
+
+.sidenav {
+    position: fixed;
+    display: flex;
+    width: 100vh;
+    transform: rotate(-90deg);
+    left: -330px;
+    top: 49%;
+    justify-content: space-evenly;
+    z-index: 10;
+}
+
+.sidenav button {
+    background: none;
+    border: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: inherit;
+    line-height: 14px;
+    color: var(--interact);
+    font-weight: 400;
+    transition-duration: 200ms;
+    cursor: pointer;
+}
+
+.sidenav button:hover {
+    color: var(--active);
+}

@@ -1,0 +1,70 @@
+#resume {
+    z-index: -10;
+}
+
+.resume-container {
+    width: 100%;
+    max-width: 1360px;
+    padding: 0 180px 200px 180px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    color: var(--text);
+    transition: 300ms ease-out;
+}
+
+.resume-section {
+    padding-top: 75px;
+    padding-bottom: 25px;
+}
+
+#resume h2 {
+    text-transform: uppercase;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    margin: 0;
+    padding: 12px 0 36px 0;
+    width: 100%;
+    border-top: 2px solid var(--text);
+}
+
+.title-and-date {
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+#resume h3, #resume p {
+    margin: 0;
+}
+
+#resume h3, #resume p, #resume li {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+#resume h3 {
+    font-weight: 600;
+}
+
+#resume p, #resume li {
+    font-weight: 300;
+}
+
+#resume p.date {
+    font-style: italic;
+    text-align: right;
+    margin-left: 36px;
+}
+
+#resume ul {
+    margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+    .resume-container {
+        padding: 0 50px 200px 50px;
+    }
+}
