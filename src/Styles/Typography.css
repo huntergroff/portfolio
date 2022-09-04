@@ -35,3 +35,87 @@
         margin-bottom: 40px;
     }
 }
+
+
+#momo {
+    background-color: var(--bg2);
+    padding-top: 100px;
+    transition-duration: 200ms;
+    color: var(--text);
+}
+
+.momo-title {
+    display: flex;
+    width: 100%;
+}
+
+.momo-header-letter {
+    width: 25%;
+    color: var(--active);
+}
+
+.momo-header .top, .momo-header .bottom {
+    display: flex;
+    margin-top: 10px;
+}
+
+.momo-subtitle {
+    margin-top: 30px;
+}
+
+.momo-subtitle-letter {
+    width: 35px;
+    height: 35px;
+    margin-right: 2px;
+    color: var(--text);
+}
+
+.momo-grid {
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: repeat(4, 24.25%);
+    gap: 1%;
+    border: 1px solid red;
+}
+
+.momo-grid-letter {
+    height: 100%;
+    width: auto;
+    margin: 0 auto;
+}
+
+.momo-grid-g {
+    grid-column: 3/5;
+    grid-row: 2/4;
+}
+
+.momo-grid-j {
+    grid-column: 1/3;
+    grid-row: 4/6;
+}
+
+.momo-blurb-1 {
+    grid-column: 3/5;
+}
+
+.momo-grid-r {
+    grid-column: 2/4;
+    grid-row: 7/9;
+}
+
+.momo-blurb-2 {
+    grid-column: 1/3;
+}
+
+.momo-grid-x {
+    grid-column: 1/3;
+    grid-row: 10/12;
+}
+
+.momo-grid p {
+    margin: 0;
+}
+
+.momo-blurb-3 {
+    grid-column: 3/5;
+}
