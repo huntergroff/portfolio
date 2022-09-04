@@ -1,6 +1,6 @@
 .form-counterform-grid {
     display: grid;
-    grid-template-columns: 30% 30% 30%;
+    grid-template-columns: 33% 33% 33%;
     grid-template-rows: auto auto auto;
 }
 
@@ -16,13 +16,22 @@
     justify-content: space-between;
 }
 
+.grid-and-caption {
+    width: 30%;
+}
+
+.grid-caption {
+    color: var(--active);
+    margin: 10px 0 0 0;
+}
+
 @media screen and (max-width:640px) {
     .form-counterform-grids-container {
         flex-direction: column;
     }
 
-    .form-counterform-grid {
-        grid-template-columns: 33% 33% 33%;
+    .grid-and-caption {
+        width: 100%;
         margin-bottom: 40px;
     }
 }
