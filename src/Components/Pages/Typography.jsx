@@ -43,9 +43,18 @@ const Typography = () => {
                         <p className='section-subheading'>Detailed examinations opf 3 typefaces via close-up frames of individual letterforms.</p>
                     </div>
                     <div className='form-counterform-grids-container'>
-                        <FormCounterformGrid gridList={Modern} />
-                        <FormCounterformGrid gridList={Transitional} />
-                        <FormCounterformGrid gridList={Oldstyle} />
+                        <div className='grid-and-caption'>
+                            <FormCounterformGrid gridList={Modern} />
+                            <p className='grid-caption'>Bodoni</p>
+                        </div>
+                        <div className='grid-and-caption'>
+                            <FormCounterformGrid gridList={Transitional} />
+                            <p className='grid-caption'>Century</p>
+                        </div>
+                        <div className='grid-and-caption'>
+                            <FormCounterformGrid gridList={Oldstyle} />
+                            <p className='grid-caption'>Jenson</p>
+                        </div>
                     </div>
                 </div>
             </div>

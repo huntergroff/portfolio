@@ -4,10 +4,10 @@
     display: flex;
     align-items: flex-start;
     position: fixed;
-    right: -125px;
+    right: -132px;
     transition-duration: 200ms;
     z-index: 10;
-    padding-left: 20px;
+    padding-left: 14px;
 }
 
 #header.expand {
