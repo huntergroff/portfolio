@@ -16,6 +16,8 @@ body {
     width: 100%;
     overflow-x: hidden;
     overflow-y:inherit;
+    background-color: var(--bg);
+    transition-duration: 200ms;
     font-family: acumin-pro, sans-serif;
 }
 
@@ -32,10 +34,32 @@ body {
     display: block;
 }
 
+.subheading {
+    font-size: 70px;
+    line-height: 70px;
+    text-transform: uppercase;
+    color: var(--active);
+    font-weight: 700;
+    position: relative;
+    top: -80px;
+    left: 200px;
+    margin: 0;
+}
+
 .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1360px;
+    padding: 0 180px 200px 180px;
     margin: 0 auto;
+    box-sizing: border-box;
+    color: var(--text);
+    transition: 200ms ease-out;
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        padding: 0 50px 200px 50px;
+    }
 }
 
 a {
@@ -74,4 +98,25 @@ a.active, a:hover {
 
 .sidenav button:hover {
     color: var(--active);
+}
+
+.section-heading-box {
+    width: 100%;
+    color: var(--active);
+}
+
+.section-heading {
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+}
+
+.section-subheading {
+    font-size: 18px; 
+    line-height: 22px;
+    font-weight: 300;
+    max-width: 500px;
+    margin: 0;
 }

@@ -28,7 +28,7 @@ const Resume = () => {
     </div>
     <div id="resume">
       <h1 className="heading">Resume</h1>
-        <div className='resume-container'>
+        <div className='container'>
         <div className='download-button'>
           <TbFileDownload className='download-icon'/>
           <h1 className='download-text'>download</h1> 

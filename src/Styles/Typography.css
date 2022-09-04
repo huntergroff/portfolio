@@ -1,0 +1,28 @@
+.form-counterform-grid {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: auto auto auto;
+}
+
+.form-counterform-letter {
+    width: 100%;
+    height: auto;
+}
+
+.form-counterform-grids-container {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:640px) {
+    .form-counterform-grids-container {
+        flex-direction: column;
+    }
+
+    .form-counterform-grid {
+        grid-template-columns: 33% 33% 33%;
+        margin-bottom: 40px;
+    }
+}

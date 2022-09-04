@@ -1,6 +1,5 @@
 #resume {
     z-index: -10;
-    background-color: var(--bg);
     transition-duration: 200ms;
 }
 
@@ -36,22 +35,13 @@
 }
 
 .download-icon:hover {
-    color: var(--active);   
+    color: var(--active);
+    width: 30px; 
 }
 
 .download-icon:hover + .download-text {
     opacity: 100%;
     letter-spacing: 2px;
-}
-
-.resume-container {
-    width: 100%;
-    max-width: 1360px;
-    padding: 0 180px 200px 180px;
-    margin: 0 auto;
-    box-sizing: border-box;
-    color: var(--text);
-    transition: 300ms ease-out;
 }
 
 .resume-section {
@@ -103,10 +93,4 @@
 
 #resume ul {
     margin: 0;
-}
-
-@media screen and (max-width: 800px) {
-    .resume-container {
-        padding: 0 50px 200px 50px;
-    }
 }

@@ -1,0 +1,32 @@
+import Modern01 from '../Images/Typography/Modern-01.jpg'
+import Modern02 from '../Images/Typography/Modern-02.jpg'
+import Modern03 from '../Images/Typography/Modern-03.jpg'
+import Modern04 from '../Images/Typography/Modern-04.jpg'
+import Modern05 from '../Images/Typography/Modern-05.jpg'
+import Modern06 from '../Images/Typography/Modern-06.jpg'
+import Modern07 from '../Images/Typography/Modern-07.jpg'
+import Modern08 from '../Images/Typography/Modern-08.jpg'
+import Modern09 from '../Images/Typography/Modern-09.jpg'
+import Transitional01 from '../Images/Typography/transitional-01.jpg'
+import Transitional02 from '../Images/Typography/transitional-02.jpg'
+import Transitional03 from '../Images/Typography/transitional-03.jpg'
+import Transitional04 from '../Images/Typography/transitional-04.jpg'
+import Transitional05 from '../Images/Typography/transitional-05.jpg'
+import Transitional06 from '../Images/Typography/transitional-06.jpg'
+import Transitional07 from '../Images/Typography/transitional-07.jpg'
+import Transitional08 from '../Images/Typography/transitional-08.jpg'
+import Transitional09 from '../Images/Typography/transitional-09.jpg'
+import Oldstyle01 from '../Images/Typography/oldstyle-01.jpg'
+import Oldstyle02 from '../Images/Typography/oldstyle-02.jpg'
+import Oldstyle03 from '../Images/Typography/oldstyle-03.jpg'
+import Oldstyle04 from '../Images/Typography/oldstyle-04.jpg'
+import Oldstyle05 from '../Images/Typography/oldstyle-05.jpg'
+import Oldstyle06 from '../Images/Typography/oldstyle-06.jpg'
+import Oldstyle07 from '../Images/Typography/oldstyle-07.jpg'
+import Oldstyle08 from '../Images/Typography/oldstyle-08.jpg'
+import Oldstyle09 from '../Images/Typography/oldstyle-09.jpg'
+
+
+export const Modern = [Modern07, Modern06, Modern04, Modern01, Modern08, Modern09, Modern05, Modern02, Modern03]
+export const Transitional = [Transitional01, Transitional05, Transitional06, Transitional02, Transitional04, Transitional07, Transitional09, Transitional03, Transitional08]
+export const Oldstyle = [Oldstyle06, Oldstyle03, Oldstyle09, Oldstyle01, Oldstyle02, Oldstyle07, Oldstyle04, Oldstyle08, Oldstyle05]
