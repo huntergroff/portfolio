@@ -1,5 +1,7 @@
 #resume {
     z-index: -10;
+    background-color: var(--bg);
+    transition-duration: 200ms;
 }
 
 .download-button {

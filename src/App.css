@@ -1,7 +1,14 @@
-:root {
+#light {
     --bg: #FFFFFF;
     --text: #333333;
     --interact: #29778E;
+    --active: #E26200;
+}
+
+#dark {
+    --bg: #333333;
+    --text: #FFFFFF;
+    --interact: #24A7CE;
     --active: #E26200;
 }
 

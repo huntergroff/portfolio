@@ -1,8 +1,10 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import { NavLink } from 'react-router-dom';
 import { MenuItems } from '../Content/MenuItems'
 import '../Styles/Header.css'
-import { MdArrowLeft } from 'react-icons/md';
+import { FiArrowLeft } from 'react-icons/fi';
+import ThemeToggler from './ThemeToggler';
+
 
 const Header = () => {
   const [expand, setExpand] = useState(true);
@@ -10,7 +12,10 @@ const Header = () => {
 
   return (
     <div id="header" className={expand ? 'expand' : ''}>
-      <MdArrowLeft className={`arrow ${expand ? 'expand' : ''}`} onClick={toggleMenu}/>
+      <div className='arrow-and-theme'>
+        <FiArrowLeft className={`arrow ${expand ? 'expand' : ''}`} onClick={toggleMenu}/>
+        <ThemeToggler />
+      </div>
       <ul>
           {MenuItems.map((menuItem, index) => {
                   return (

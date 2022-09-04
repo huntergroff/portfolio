@@ -1,0 +1,19 @@
+.theme-toggler {
+    display: flex;
+    flex-direction: column;
+    width: 20px;
+    color: var(--interact);
+    cursor: pointer;
+}
+
+.toggle-icon {
+    width: 20px;
+    height: 20px;
+    color: inherit;
+    transition-duration: 200ms;
+    margin-top: 8px;
+}
+
+.theme-toggler:hover {
+    color: var(--active);
+}
