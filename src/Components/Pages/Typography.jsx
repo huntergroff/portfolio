@@ -29,7 +29,12 @@ import MomoW from '../../Images/Typography/momo-w.js'
 import MomoX from '../../Images/Typography/momo-x.js'
 import MomoY from '../../Images/Typography/momo-y.js'
 import MomoZ from '../../Images/Typography/momo-z.js'
-import MomoGrid from '../../Images/Typography/momo-1grid.js'
+import MomoGrid from '../../Images/Typography/momo-1grid.svg'
+
+//import bodoni posters 
+import BodoniBlue from '../../Images/Typography/bodoni-blue.jpg'
+import BodoniPurp from '../../Images/Typography/bodoni-purple.jpg'
+import BodoniRose from '../../Images/Typography/bodoni-rose.jpg'
 
 const FormCounterformGrid = ({ gridList }) => {
     return (
@@ -83,29 +88,61 @@ const Momo = () => {
                     <MomoD className='momo-grid-letter'/>
                     <MomoE className='momo-grid-letter'/>
                     <MomoF className='momo-grid-letter'/>
-                    <MomoG className='momo-grid-letter momo-grid-g'/>
+                    <MomoG className='momo-grid-big momo-grid-g'/>
+                    <img src={MomoGrid} className='momo-grid-g momo-grid-big momo-grid-lines' alt="gridlines."/>
                     <MomoH className='momo-grid-letter'/>
                     <MomoI className='momo-grid-letter'/>
-                    <MomoJ className='momo-grid-letter momo-grid-j'/>
+                    <MomoJ className='momo-grid-big momo-grid-j'/>
+                    <img src={MomoGrid} className='momo-grid-j momo-grid-big momo-grid-lines' alt="gridlines."/>
                     <MomoK className='momo-grid-letter'/>
                     <MomoL className='momo-grid-letter'/>
                     <MomoM className='momo-grid-letter'/>
                     <MomoN className='momo-grid-letter'/>
                     <MomoO className='momo-grid-letter'/>
                     <MomoP className='momo-grid-letter'/>
-                    <p className='momo-blurb-1'>blah blah blah.</p>
+                    <p className='momo-blurb-1'>Inspired by typefaces such as Bodoni and Didot, "MoMo" brings the serifs and stroke contrast of modern fonts to a monospace format.</p>
                     <MomoQ className='momo-grid-letter'/>
-                    <MomoR className='momo-grid-letter momo-grid-r'/>
+                    <MomoR className='momo-grid-big momo-grid-r'/>
+                    <img src={MomoGrid} className='momo-grid-r momo-grid-big momo-grid-lines' alt="gridlines."/>
                     <MomoS className='momo-grid-letter'/>
                     <MomoT className='momo-grid-letter'/>
                     <MomoU className='momo-grid-letter'/>
-                    <p className='momo-blurb-2'>blah blah blah.</p>
+                    <p className='momo-blurb-2'>The first phase of the project included the constraint of an 8x8 pixel grid, giving this draft of the typeface a retro "space-invaders" appearance.</p>
                     <MomoV className='momo-grid-letter'/>
                     <MomoW className='momo-grid-letter'/>
-                    <MomoX className='momo-grid-letter momo-grid-x'/>
+                    <MomoX className='momo-grid-big momo-grid-x'/>
+                    <img src={MomoGrid} className='momo-grid-x momo-grid-big momo-grid-lines' alt="gridlines."/>
                     <MomoY className='momo-grid-letter'/>
                     <MomoZ className='momo-grid-letter'/>
-                    <p className='momo-blurb-3'>blah blah blah.</p>
+                    <p className='momo-blurb-3'>I hope to continue the project soon by adding lowercase letters, symbols, and numbers!</p>
+                </div>
+                <div className='momo-list'>
+                    <MomoA className='momo-list-letter'/>
+                    <MomoB className='momo-list-letter'/>
+                    <MomoC className='momo-list-letter'/>
+                    <MomoD className='momo-list-letter'/>
+                    <MomoE className='momo-list-letter'/>
+                    <MomoF className='momo-list-letter'/>
+                    <MomoG className='momo-list-letter'/>
+                    <MomoH className='momo-list-letter'/>
+                    <MomoI className='momo-list-letter'/>
+                    <MomoJ className='momo-list-letter'/>
+                    <MomoK className='momo-list-letter'/>
+                    <MomoL className='momo-list-letter'/>
+                    <MomoM className='momo-list-letter'/>
+                    <MomoN className='momo-list-letter'/>
+                    <MomoO className='momo-list-letter'/>
+                    <MomoP className='momo-list-letter'/>
+                    <MomoQ className='momo-list-letter'/>
+                    <MomoR className='momo-list-letter'/>
+                    <MomoS className='momo-list-letter'/>
+                    <MomoT className='momo-list-letter'/>
+                    <MomoU className='momo-list-letter'/>
+                    <MomoV className='momo-list-letter'/>
+                    <MomoW className='momo-list-letter'/>
+                    <MomoX className='momo-list-letter'/>
+                    <MomoY className='momo-list-letter'/>
+                    <MomoZ className='momo-list-letter'/>
                 </div>
             </div>
         </div>
@@ -128,8 +165,8 @@ const Typography = () => {
     <>
         <div className='sidenav'>
             <button className='sidenav-button' onClick={calligramsScroll}>Calligrams</button>
-            <button className='sidenav-button' onClick={momoScroll}>Momo</button>
             <button className='sidenav-button' onClick={bodoniScroll}>Bodoni Specimen</button>
+            <button className='sidenav-button' onClick={momoScroll}>Momo</button>
             <button className='sidenav-button' onClick={formCounterformScroll}>Form / Counterform</button>
         </div>
         <div id="typography">
@@ -159,6 +196,20 @@ const Typography = () => {
             </div>
             <div ref={momoRef}>
                 <Momo />
+            </div>
+            <div id="bodoni" ref={bodoniRef} className='container'>
+                <div className='section-heading-box'>
+                    <h1 className='section-heading'>Bodoni Specimen</h1>
+                    <p className='section-subheading'>A type specimen poster of Bodoni typeface.</p>
+                </div>
+                <div className='big-bodoni'>
+                    <img src={BodoniRose} alt="Bodoni Typeface Specimen Poster."/>
+                </div>
+                <div className='mini-bodonis'>
+                    <img src={BodoniRose} alt="Bodoni Typeface Specimen Poster."/>
+                    <img src={BodoniBlue} alt="Bodoni Typeface Specimen Poster."/>
+                    <img src={BodoniPurp} alt="Bodoni Typeface Specimen Poster."/>
+                </div>
             </div>     
         </div>
     </>
