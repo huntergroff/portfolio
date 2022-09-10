@@ -20,12 +20,16 @@ const Home = (props) => {
         </div>
         <ul className='home-nav'>
           {MenuItems.map((menuItem, index) => {
+            if (menuItem.title === "Home") {
+              return (<></>)
+            } else {
                   return (
                     <li key={index}>
                       <NavLink to={menuItem.link}>{menuItem.title}</NavLink>
                     </li>
                   );
               }
+            }
           )}
         </ul>
       </div>

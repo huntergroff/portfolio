@@ -36,6 +36,19 @@
     font-size: 15px;
     background-color: var(--bg);
     padding: 5px;
+    transition-duration: 200ms;
+}
+
+.contact-form input::placeholder, .contact-form textarea::placeholder {
+    color: var(--text);
+    opacity: 60%;
+}
+
+.contact-form textarea {
+    max-width: 100%;
+    min-width: 200px;
+    box-sizing: border-box;
+    min-height: 80px;
 }
 
 .contact-form button {
