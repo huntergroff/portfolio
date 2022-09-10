@@ -26,6 +26,7 @@ body {
 .heading {
     font-size: 200px;
     line-height: 170px;
+    overflow-y: hidden;
     text-transform: uppercase;
     color: var(--text);
     font-weight: 700;
@@ -34,6 +35,7 @@ body {
     left: -25px;
     margin: 0;
     display: block;
+    z-index: 0;
 }
 
 .subheading {

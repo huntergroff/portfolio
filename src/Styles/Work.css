@@ -1,0 +1,22 @@
+.work-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 20;
+}
+
+.work-nav button {
+    background: none;
+    border: none;
+    color: var(--interact);
+    font-family: inherit;
+    text-transform: uppercase;
+    transition-duration: 200ms;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.work-nav button:hover {
+    color: var(--active);
+}
