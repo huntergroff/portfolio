@@ -1,0 +1,57 @@
+#contact {
+    min-height: 100vh;
+}
+
+#contact p {
+    color: var(--text);
+}
+
+#contact p.contact-blurb {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+#contact p.contact-info {
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 200;
+}
+
+.contact-intro {
+    margin-bottom: 70px;;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input, .contact-form textarea {
+    border-radius: 0;
+    border: 2px solid var(--interact);
+    font-family: acumin-pro, sans-serif;
+    color: var(--text);
+    margin-bottom: 15px;
+    font-size: 15px;
+    background-color: var(--bg);
+    padding: 5px;
+}
+
+.contact-form button {
+    background-color: var(--interact);
+    color: white;
+    border: none;
+    width: 70px;
+    font-size: 18x;
+    font-weight: 700;
+    font-family: acumin-pro, sans-serif;
+    text-transform: uppercase;
+    padding: 5px 0 8px 0;
+    transition-duration: 200ms;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: var(--active);
+}

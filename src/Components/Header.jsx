@@ -20,7 +20,7 @@ const Header = (props) => {
           {MenuItems.map((menuItem, index) => {
                   return (
                       <li key={index}>
-                          <NavLink to={menuItem.link}>{menuItem.title}</NavLink>
+                          <NavLink to={menuItem.link} onClick={toggleMenu}>{menuItem.title}</NavLink>
                       </li>
                   );})
           }

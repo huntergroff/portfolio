@@ -51,7 +51,7 @@ body {
 .container {
     width: 100%;
     max-width: 1360px;
-    padding: 0 180px 100px 180px;
+    padding: 0 180px;
     margin: 0 auto;
     box-sizing: border-box;
     color: var(--text);
@@ -60,7 +60,7 @@ body {
 
 @media screen and (max-width: 800px) {
     .container {
-        padding: 0 50px 200px 50px;
+        padding: 0 50px;
     }
 }
 
