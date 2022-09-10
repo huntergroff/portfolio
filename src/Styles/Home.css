@@ -1,0 +1,34 @@
+#home {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg);
+    color: var(--text);
+    transition-duration: 200ms;
+}
+
+.home-title {
+    display: flex;
+}
+
+#home ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.home-socials {
+    margin-bottom: 10px;
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-social-logo {
+    width: 30px;
+    height: 30px;
+}

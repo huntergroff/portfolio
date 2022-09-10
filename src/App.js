@@ -1,28 +1,33 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import Header from './Components/Header';
-import { MenuItems } from './Content/MenuItems';
 import { createContext, useState } from 'react';
 import Typography from './Components/Pages/Typography';
+import Home from './Components/Pages/Home';
+import About from './Components/Pages/About';
+import Resume from './Components/Pages/Resume';
+import Work from './Components/Pages/Work';
+import Contact from './Components/Pages/Contact';
 
 export const ThemeContext = createContext(null);
+export const HomeContext = createContext(null);
 
 function App() {
   const [theme, setTheme] = useState("light");
+  const [home, setHome] = useState("true");
 
   const toggleTheme = () => setTheme(theme === "light" ? "dark" : "light")
 
   return (
     <ThemeContext.Provider value={{theme, toggleTheme}}>
       <body id={theme}>
-        <Header />
+        <Header home={home}/>
         <Routes>
-          {MenuItems.map((menuItem, index) => {
-                      return (
-                          <Route exact path={menuItem.link} element={menuItem.element} key={index} />
-                      );
-                  })
-              }
+          <Route exact path="/" element={<Home setHome={setHome}/>} />
+          <Route exact path="/about" element={<About setHome={setHome}/>}/>
+          <Route exact path="/work" element={<Work setHome={setHome}/>}/>
+          <Route exact path="/resume" element={<Resume setHome={setHome}/>}/>
+          <Route exact path="/contact" element={<Contact setHome={setHome}/>}/>
           <Route exact path="/work/typography" element={<Typography/>} />
         </Routes>
       </body>

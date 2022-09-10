@@ -6,12 +6,24 @@
     cursor: pointer;
 }
 
+.theme-toggler.sideways {
+    flex-direction: row;
+    width: 65px;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
 .toggle-icon {
     width: 25px;
     height: 25px;
     color: inherit;
     transition-duration: 200ms;
     margin-top: 8px;
+}
+
+.theme-toggler.sideways .toggle-icon {
+    width: 30px;
+    height: 30px;
 }
 
 .theme-toggler:hover {

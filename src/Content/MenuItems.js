@@ -1,14 +1,14 @@
-import Home from "../Components/Pages/Home";
 import About from "../Components/Pages/About";
 import Work from "../Components/Pages/Work";
 import Resume from "../Components/Pages/Resume";
 import Contact from "../Components/Pages/Contact";
+import Home from "../Components/Pages/Home";
 
 export const MenuItems = [
     {
         title: "Home",
         link: "/",
-        element: <Home/>
+        element: <Home />
     },
     {
         title: "About",

@@ -1,20 +1,20 @@
-import React, { useContext, useState } from 'react'
+import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom';
 import { MenuItems } from '../Content/MenuItems'
 import '../Styles/Header.css'
-import { FiArrowLeft } from 'react-icons/fi';
+import { IoMdClose } from 'react-icons/io';
+import { RiMenuFill } from 'react-icons/ri';
 import ThemeToggler from './ThemeToggler';
 
-
-const Header = () => {
+const Header = (props) => {
   const [expand, setExpand] = useState(true);
   const toggleMenu = () => setExpand(!expand);
 
   return (
-    <div id="header" className={expand ? 'expand' : ''}>
+    <div id="header" className={`${expand && !props.home ? 'expand' : ''} ${props.home ? 'hide' : ''}`}>
       <div className='arrow-and-theme'>
-        <FiArrowLeft className={`arrow ${expand ? 'expand' : ''}`} onClick={toggleMenu}/>
-        <ThemeToggler />
+        {expand ? <IoMdClose className='arrow' onClick={toggleMenu} /> : <RiMenuFill className='arrow' onClick={toggleMenu}/>}
+        <ThemeToggler home={false} />
       </div>
       <ul>
           {MenuItems.map((menuItem, index) => {

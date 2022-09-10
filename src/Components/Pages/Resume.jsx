@@ -1,8 +1,12 @@
-import React, { useRef } from 'react'
+import React, { useEffect, useRef } from 'react'
 import '../../Styles/Resume.css'
 import { TbFileDownload } from 'react-icons/tb'
 
-const Resume = () => {
+const Resume = (props) => {
+  useEffect(() => {
+    props.setHome(false);
+  })
+
    const educationRef = useRef(null)
    const educationScroll = () => educationRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' })
    const technicalRef = useRef(null)
