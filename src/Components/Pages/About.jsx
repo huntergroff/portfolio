@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { BsGithub, BsInstagram, BsLinkedin, BsYoutube } from 'react-icons/bs';
+import { BsGithub, BsInstagram, BsLinkedin } from 'react-icons/bs';
 import '../../Styles/About.css'
 import Headshot from '../../Images/Headshot.png'
 
@@ -29,9 +29,6 @@ const About = (props) => {
               </a>
               <a href="https://www.linkedin.com/in/hunter-groff/" target="_blank" rel="noreferrer">
                 <BsLinkedin className='about-social-logo' />
-              </a>
-              <a href="https://www.youtube.com/channel/UChogrSS5x2te1WA8DymA6hw" target="_blank" rel="noreferrer">
-                <BsYoutube className='about-social-logo' />
               </a>
             </div>
           </div>

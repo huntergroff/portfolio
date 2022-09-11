@@ -38,6 +38,14 @@ body {
     z-index: 0;
 }
 
+@media screen and (max-width: 1000px) {
+    .heading {
+        font-size: 20vw;
+        line-height: 17vw;
+        top: -4vw;
+    }
+}
+
 .subheading {
     font-size: 70px;
     line-height: 70px;
