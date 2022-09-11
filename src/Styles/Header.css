@@ -8,6 +8,8 @@
     transition-duration: 200ms;
     z-index: 10;
     padding-left: 14px;
+    padding-bottom: 10px;
+    background-color: var(--bg);
 }
 
 #header.hide {
@@ -53,10 +55,4 @@
 
 #header li {
     margin: 20px 0;
-}
-
-@media screen and (max-width: 800px) {
-    #header.expand {
-        background-color: var(--bg);
-    }
 }

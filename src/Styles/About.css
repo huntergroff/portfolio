@@ -1,0 +1,95 @@
+#about .heading {
+    opacity: 15%;
+    font-size: 300px;
+    line-height: 280px;
+    top: -70px;
+}
+
+#huntergroff {
+    min-height: 100vh;
+}
+
+#huntergroff h3{ 
+    z-index: 2;
+    position:absolute;
+    top: 0px;
+    font-size: 140px;
+    font-weight: 800;
+    line-height: 100px;
+    color: var(--active);
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+}
+
+#huntergroff .blurbs-and-image {
+    z-index: 10;
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
+    height: 400px;
+    align-items: flex-end;
+    position: relative;
+    top: -20px;
+    color: var(--text);
+}
+
+.about-headshot {
+    width: 380px;
+    height: fit-content;
+    border-radius: 0 0 60px 60px;
+    margin: 0 40px;
+}
+
+.blurbs-and-image .left-blurbs, .blurbs-and-image .right-blurbs {
+    width: 300px;
+}
+
+.blurbs-and-image .left-blurbs {
+    text-align: right;
+}
+
+.blurbs-and-image ul {
+    padding: 0 0 0 20px;
+}
+
+.blurbs-and-image p, .blurbs-and-image li {
+    font-weight: 200;
+    margin: 0;
+}
+
+.blurbs-and-image h2 {
+    margin: 20px 0 10px 0;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: var(--text);
+}
+
+.about-social-logo {
+    width: 30px;
+    height: 30px;
+    margin-left: 12px;
+}
+
+.about-section {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20% 0;
+}
+
+.about-section h4 { 
+    color: var(--active);
+    margin: 0;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.about-section p {
+    color: var(--text);
+    font-size: 20px;
+    line-height: 30px;
+}

@@ -1,6 +1,4 @@
 const MomoD = (props) => {
-    console.log(props)
-
     return (
         <svg className={props.className} id="Layer_1" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 81 81">
             <rect x="60.5" y="10.5" width="10" height="10"/>

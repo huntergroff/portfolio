@@ -4,6 +4,7 @@ import { MenuItems } from '../../Content/MenuItems';
 import ThemeToggler from '../ThemeToggler';
 import '../../Styles/Home.css'
 import { BsLinkedin, BsInstagram, BsGithub } from 'react-icons/bs'
+import HGLogo from '../../Images/hglogo.js'
 
 const Home = (props) => {
   useEffect(() => {
@@ -15,7 +16,7 @@ const Home = (props) => {
       <ThemeToggler home={true}/>
       <div className='home-center'>
         <div className='home-title'>
-          <h1>logo</h1>
+          <HGLogo className='hg-icon' />
           <h1>Hunter Groff</h1>
         </div>
         <ul className='home-nav'>
