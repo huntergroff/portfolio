@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     z-index: 20;
+    margin-bottom: 50px;
 }
 
 .work-nav button {
@@ -19,4 +20,23 @@
 
 .work-nav button:hover {
     color: var(--active);
+}
+
+.work-img {
+    width: 100%;
+}
+
+.work-subtitle {
+    margin: 10px 0 60px 0;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--text);
+}
+
+.htlo-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }

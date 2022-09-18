@@ -48,7 +48,8 @@
 
 #home li {
     text-transform: uppercase;
-    font-size: 34px;
+    font-size: 28px;
+    line-height: 28px;
     font-weight: 600;
 }
 
