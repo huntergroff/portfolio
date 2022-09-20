@@ -1,19 +1,19 @@
 #header {
-    width: 170px;
-    height: 260px;
+    width: 168px;
+    height: 310px;
     display: flex;
     align-items: flex-start;
     position: fixed;
     right: -132px;
     transition-duration: 200ms;
     z-index: 10;
-    padding-left: 14px;
+    padding-left: 12px;
     padding-bottom: 10px;
     background-color: var(--bg);
 }
 
 #header.hide {
-    right: -170px;
+    right: -168px;
 }
 
 #header.expand {

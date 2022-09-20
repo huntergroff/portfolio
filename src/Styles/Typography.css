@@ -75,7 +75,7 @@
 }
 
 .momo-grid {
-    margin-top: 150px;
+    margin-top: 80px;
     display: grid;
 }
 
@@ -165,10 +165,6 @@
     color: var(--active);
 }
 
-#bodoni {
-    padding-top: 80px;
-}
-
 .big-bodoni {
     width: 100%;
 }
@@ -176,7 +172,7 @@
 .big-bodoni img {
     width: 100%;
     height: auto;
-    margin: 0 0 60px 0;
+    margin: 3vw 0 0 0;
 }
 
 .mini-bodonis {

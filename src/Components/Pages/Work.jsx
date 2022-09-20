@@ -5,7 +5,14 @@ import '../../Styles/Work.css'
 
 const Placeholder = () => {
   return (
-    <div>Placeholder</div>
+    <div className='placeholder'>
+      <p>
+        A collection of all of my best design work. From HTLO and Kinematix dance groups,
+        to my work with typography and graphic design, to my projects from my time in 
+        the Northeastern University architecture program. Click the sections above to 
+        see work from different areas of my life!
+      </p>
+    </div>
   )
 }
 

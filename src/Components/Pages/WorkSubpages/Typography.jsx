@@ -138,14 +138,14 @@ const Momo = () => {
 
 const Bodoni = () => {
   return (
-    <div id="bodoni" className='container'>
-      <div className='big-bodoni'>
-          <img src={BodoniRose} alt="Bodoni Typeface Specimen Poster."/>
-      </div>
+    <div id="bodoni">
       <div className='mini-bodonis'>
           <img src={BodoniRose} alt="Bodoni Typeface Specimen Poster."/>
           <img src={BodoniBlue} alt="Bodoni Typeface Specimen Poster."/>
           <img src={BodoniPurp} alt="Bodoni Typeface Specimen Poster."/>
+      </div>
+      <div className='big-bodoni'>
+          <img src={BodoniRose} alt="Bodoni Typeface Specimen Poster."/>
       </div>
       </div>     
   )
@@ -155,7 +155,9 @@ const Typography = () => {
   return (
     <div>
       <Bodoni/>
+      <p className='work-subtitle'>BODONI SPECIMEN POSTERS</p>
       <Momo />
+      <p className='work-subtitle'>MONOSPACE MODERN TYPEFACE PROJECT</p>
     </div>
   )
 }
