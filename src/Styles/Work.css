@@ -47,8 +47,72 @@
     color: var(--text);
 }
 
-.htlo-container {
+#htlo, #typography, #kinematix {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+}
+
+
+
+/** KINEMATIX **/
+img.summer-workshop-big {
+    width: 49%
+}
+
+.big-summer-workshops {
+    display: flex;
+    justify-content: space-between;
+}
+
+img.summer-workshop-small {
+    width: 23.5%;
+}
+
+.small-summer-workshops {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+img.summer-workshop-small-fb {
+    width: 32%
+}
+
+.ebo-box {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.ebo-box:hover .ebo-img {
+    scale: 0.8;
+}
+
+.ebo-img {
+    width: 25%;
+    transition-duration: 200ms;
+}
+
+@media screen and (max-width: 720px) {
+    img.summer-workshop-big {
+        width: 100%;
+        margin-bottom: 4%;
+    }
+
+    .big-summer-workshops {
+        flex-direction: column;
+    }
+
+    img.summer-workshop-small {
+        width: 48%;
+        margin-bottom: 4%;
+    }
+
+    .small-summer-workshops {
+        flex-wrap: wrap;
+        margin-top: 0%;
+    }
 }

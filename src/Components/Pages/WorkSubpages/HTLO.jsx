@@ -6,7 +6,7 @@ import LovesickThumb from '../../../Images/HTLO/lovesick-thumb2.jpg'
 
 const HTLO = () => {
   return (
-    <div className='htlo-container' id='htlo'>
+    <div id='htlo'>
       <img src={WowThumb} alt="Wow Freestyle Thumbnail" className='work-img'></img>
       <p className='work-subtitle'>YOUTUBE THUMBNAIL</p>
       <img src={LovesickThumb} alt="Lovesick Thumbnail" className='work-img'></img>
