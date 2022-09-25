@@ -1,4 +1,5 @@
 import React from 'react'
+import { Modern, Transitional, Oldstyle } from '../../../Content/FormCounterformItems'
 
 //import all Momo letters
 import MomoA from '../../../Images/Typography/momo-a.js'
@@ -28,12 +29,28 @@ import MomoX from '../../../Images/Typography/momo-x.js'
 import MomoY from '../../../Images/Typography/momo-y.js'
 import MomoZ from '../../../Images/Typography/momo-z.js'
 import MomoGrid from '../../../Images/Typography/momo-1grid.svg'
-import '../../../Styles/Typography.css'
 
 //import bodoni posters 
 import BodoniBlue from '../../../Images/Typography/bodoni-blue.jpg'
 import BodoniPurp from '../../../Images/Typography/bodoni-purple.jpg'
 import BodoniRose from '../../../Images/Typography/bodoni-rose.jpg'
+
+//import ICA Summer sessions
+import ICASS1 from '../../../Images/Typography/ica-ss-1.jpg'
+import ICASS2 from '../../../Images/Typography/ica-ss-2.jpg'
+import ICASS3 from '../../../Images/Typography/ica-ss-3.jpg'
+
+const FormCounterformGrid = ({ gridList }) => {
+    return (
+        <div className='form-counterform-grid'>
+            {gridList.map((gridItem, index) => {
+                  return (
+                      <img src={gridItem} key={index} className='form-counterform-letter' alt="modern letterform." />
+                  );})
+            }
+        </div>
+    )
+}
 
 const Momo = () => {
     return (
@@ -153,11 +170,31 @@ const Bodoni = () => {
 
 const Typography = () => {
   return (
-    <div>
-      <Bodoni/>
-      <p className='work-subtitle'>BODONI SPECIMEN POSTERS</p>
-      <Momo />
-      <p className='work-subtitle'>MONOSPACE MODERN TYPEFACE PROJECT</p>
+    <div id="typography">
+        <Bodoni/>
+        <p className='work-subtitle'>BODONI SPECIMEN POSTERS</p>
+        <div className='summer-sessions'>
+            <img src={ICASS1} className='ica-ss-img' alt="ICA Summer Sessions with Images" />
+            <img src={ICASS2} className='ica-ss-img' alt="ICA Summer Sessions with Shape" />
+            <img src={ICASS3} className='ica-ss-img' alt="ICA Summer Sessions" />
+        </div>
+        <Momo />
+        <div id="form-counterform">
+            <div className='form-counterform-grids-container'>
+                <div className='grid-and-caption'>
+                    <FormCounterformGrid gridList={Modern} />
+                    <p className='grid-caption'>Bodoni</p>
+                </div>
+                <div className='grid-and-caption'>
+                    <FormCounterformGrid gridList={Transitional} />
+                    <p className='grid-caption'>Century</p>
+                </div>
+                <div className='grid-and-caption'>
+                    <FormCounterformGrid gridList={Oldstyle} />
+                    <p className='grid-caption'>Jenson</p>
+                </div>
+            </div>
+        </div>
     </div>
   )
 }

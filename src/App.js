@@ -2,7 +2,6 @@ import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import Header from './Components/Header';
 import { createContext, useState } from 'react';
-import Typography from './Components/Pages/Typography';
 import Home from './Components/Pages/Home';
 import About from './Components/Pages/About';
 import Resume from './Components/Pages/Resume';
@@ -30,7 +29,6 @@ function App() {
           <Route exact path="/resume" element={<Resume setHome={setHome}/>}/>
           <Route exact path="/contact" element={<Contact setHome={setHome}/>}/>
           <Route exact path="/projects" element={<Projects setHome={setHome}/>}/>
-          <Route exact path="/work/typography" element={<Typography/>} />
         </Routes>
       </body>
     </ThemeContext.Provider>

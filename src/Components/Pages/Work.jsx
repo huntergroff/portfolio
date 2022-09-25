@@ -34,6 +34,10 @@ const Work = (props) => {
       return;
     }
   });
+
+  const backToTop = () => {
+    window.scrollTo(0,0);
+  }
   
   return (
     <div id="work">
@@ -48,6 +52,11 @@ const Work = (props) => {
         </div>
         {currentWork}
       </div>
+      {work === "" ? <></> :
+        <div className='back-to-top'>
+          <button onClick={backToTop}>Back To Top</button >
+        </div>
+      }
     </div>
   )
 }

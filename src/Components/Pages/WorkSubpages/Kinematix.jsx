@@ -20,6 +20,15 @@ import WWMaxcy from '../../../Images/Kinematix/WW-Maxcy.jpg'
 import WWMattDalya from '../../../Images/Kinematix/WW-MattDalya.jpg'
 import WWBanner from '../../../Images/Kinematix/WW-Banner.jpg'
 
+import BimInsta1 from '../../../Images/Kinematix/bim-insta-1.jpg'
+import BimInsta2 from '../../../Images/Kinematix/bim-insta-2.jpg'
+import BimInsta3 from '../../../Images/Kinematix/bim-insta-3.jpg'
+import BimInsta4 from '../../../Images/Kinematix/bim-insta-4.jpg'
+import BimInsta5 from '../../../Images/Kinematix/bim-insta-5.jpg'
+import BimInsta6 from '../../../Images/Kinematix/bim-insta-6.jpg'
+import BimBanner from '../../../Images/Kinematix/bim-banner.jpg'
+import BimShowOrder from '../../../Images/Kinematix/bim-show-order.jpg'
+
 const KineSection = ({title, color1, color2, color3, color4, color5, fontname}) => {
   return (
     <div className='section'>
@@ -110,6 +119,19 @@ const Kinematix = () => {
         color5="#1C1C1C"
         fontname="Brother 1816"
       />
+      <img className='work-img' src={BimBanner} alt="Bodies in Motion FB Graphic"/>
+      <p className='work-subtitle'>Facebook Formatted Bodies in Motion Banner</p>
+      <div className='bim-box'>
+        <img className='bim-img' src={BimInsta4} alt="Bodies In Motion Instagram Part 1"/>
+        <img className='bim-img' src={BimInsta5} alt="Bodies In Motion Instagram Part 2"/>
+        <img className='bim-img' src={BimInsta6} alt="Bodies In Motion Instagram Part 3"/>
+        <img className='bim-img' src={BimInsta1} alt="Bodies In Motion Instagram Part 4"/>
+        <img className='bim-img' src={BimInsta2} alt="Bodies In Motion Instagram Part 5"/>
+        <img className='bim-img' src={BimInsta3} alt="Bodies In Motion Instagram Part 6"/>
+      </div>
+      <p className='work-subtitle'>Banner Formatted for 6-slide instagram post</p>
+      <img className='work-img' src={BimShowOrder} alt="Bodies in Motion Show Order Card"/>
+      <p className='work-subtitle'>Show Order Card for Print</p>
     </div>
   )
 }
