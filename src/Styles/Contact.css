@@ -39,6 +39,10 @@
     transition-duration: 200ms;
 }
 
+.contact-form input:hover, .contact-form textarea:hover {
+    border: 2px solid var(--active);
+}
+
 .contact-form input::placeholder, .contact-form textarea::placeholder {
     color: var(--text);
     opacity: 60%;

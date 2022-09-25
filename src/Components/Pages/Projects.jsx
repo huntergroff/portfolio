@@ -45,14 +45,14 @@ const Projects = (props) => {
           date="2022"
           subtitle="React.js, HTML, CSS, Javascript"
           iframe={true}
-          iframelink="https://miagroff.com/#/"
+          iframelink="https://www.synergydance.org/"
           iframetitle="Synergy Dance Website"
           blurb="Synergy center for Dance and the Performing Arts is a small dance studio based in Jericho, VT. 
           This summer, I had the pleasure of building a new website for them. I worked alone on the design and coding
-          for the project, and worked with the studio owner to polish and host the website using Ionus. 
+          for the project, and worked with the studio owner to polish and host the website using IONOS. 
           I built the site with React.js, utilizing React hooks, React router, and React icons libraries. 
           The website is fully mobile responsive with custom CSS. "
-          link1="https://miagroff.com/#/"
+          link1="https://www.synergydance.org/"
           link1text="Visit Site"
           link2="https://github.com/huntergroff/Synergy"
           link2text="View Code"
