@@ -14,6 +14,9 @@ The src directory is organized as follows:
 The public directory is organized as follows:
 * Holds index.html file, hglogo for browser icon, and manifest.json file for metadata.
 
+## Live Site
+
+The latest deployment of this site is live at [huntergroff.com](https://www.huntergroff.com)
 
 ## Available Scripts
 
