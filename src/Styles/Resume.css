@@ -36,7 +36,6 @@
 
 .download-icon:hover {
     color: var(--active);
-    width: 30px; 
 }
 
 .download-icon:hover + .download-text {
