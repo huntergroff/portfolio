@@ -80,23 +80,16 @@ const About = (props) => {
               filmed and edited videos with my friends, and became an avid dancer. I knew that I wanted to pursue a 
               creative career, but I also wanted to challenge myself intellectually and academically. After enrolling 
               at Northeastern University, I spent a year in the Architecture program before transferring to my current 
-              major, Computer Science and Interaction Design.</p>
-          </div>
-          <div className='about-section'>
-            <h4>Computer Science & Design</h4>
-            <p>
+              major, Computer Science and Interaction Design.
+              <br/><br/>
               As a fourth year computer science and design student, I strive to be capable in both the front end 
-              and the back end.  I am passionate about web development, designing user interfaces, and iterative design practices.
-            </p>
-          </div>
-          <div className='about-section'>
-            <h4>Iterative Design Practices</h4>
-            <p>
-              During my time in the Architecture program at Northeastern, I was introduced to the concept of iterative design. 
-              Since then, I have grown comfortable with these practices, and continue to apply them in my current work. In both 
-              technical and artistic settings, my work strategies include developing ideas through drafts, rolling out sequential 
+              and the back end.  I am passionate about web development, designing innovative user interfaces, and iterative design practices.
+              In both technical and artistic settings, my work strategies include developing ideas through drafts, rolling out sequential 
               improvements, and constantly viewing my products through a critical lens.
-            </p>
+              <br/><br/>
+              This website houses my favorite design work from over the years, along with a collection of my most recent coding projects.
+              I hope you enjoy viewing my work, and please feel free to drop me a message via the "Contact" page!
+              </p>
           </div>
         </div>
       </div>
