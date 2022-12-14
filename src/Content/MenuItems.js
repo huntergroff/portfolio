@@ -17,12 +17,12 @@ export const MenuItems = [
         element: <About/>
     },
     {
-        title: "Work",
+        title: "Design",
         link: "/work",
         element: <Work/>
     },
     {
-        title: "Projects",
+        title: "Web",
         link: "/projects",
         element: <Projects />
     },

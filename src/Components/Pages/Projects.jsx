@@ -38,7 +38,7 @@ const Projects = (props) => {
 
   return (
     <div id="projects">
-      <h1 className='heading'>Projects</h1>
+      <h1 className='heading'>Web</h1>
       <div className='container all-projects'>
         <Project 
           title="Synergy Center For Dance: Website"
@@ -65,9 +65,22 @@ const Projects = (props) => {
           blurb="You’re already here! I built this website for myself with React.js as a project to practice 
           my design and coding skills. I utilized React hooks (including useState, useEffect, useContext), 
           React Router, and React icons libraries. The website is fully mobile responsive with custom CSS."
-          link1="http://localhost:3000/#/"
+          link1="https://www.huntergroff.com/"
           link1text="Visit Site (Again)"
           link2="https://github.com/huntergroff/portfolio"
+          link2text="View Code"
+        />
+        <Project
+          title="UEFA Champions League Website Design"
+          date="2022"
+          subtitle="HTML, CSS, Figma"
+          iframe={true}
+          iframelink="https://huntergroff.github.io/uclfinal/"
+          iframetitle="UEFA Champions League Site"
+          blurb="In this project, I designed and built a promotional site for the 2023 Champions Leauge final using HTML and CSS. I first designed and prototyped the site in Figma before converting it to mobile-responsive HTML and CSS. The goal of the project was to explore the visual and typographic language of sports culture!"
+          link1="https://huntergroff.github.io/uclfinal/"
+          link1text="Visit Site"
+          link2="https://github.com/huntergroff/uclfinal"
           link2text="View Code"
         />
         <Project 

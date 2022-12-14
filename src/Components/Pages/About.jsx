@@ -45,34 +45,6 @@ const About = (props) => {
             <p>Adobe Creative Suite, HTML, CSS, JavaScript, Java, Python, React.js</p>
           </div>
         </div>
-        <h3 className='mobile-name'>Hunter Groff</h3>
-        <div className='mobile-blurbs container'>
-          <h2>Education</h2>
-          <p>Majoring in Computer Science and Interaction Design with a minor in Architecture and Urban History at Northeastern University</p>
-          <h2>Experience</h2>
-          <ul>
-            <li>Software Engineering Co-op for CarGurus</li>
-            <li>Web Developer for Synergy Center for Dance</li>
-            <li>Marketing Intern for Breezy Hill Marketing</li>
-            <li>Public Relations Coordinator for Kinematix Dance Troupe</li>
-          </ul>
-          <h2>Skills</h2>
-          <p>Adobe Creative Suite, HTML, CSS, JavaScript, Java, Python, React.js</p>
-          <h2>Passions</h2>
-          <p>Video editing, UI/UX design, dance, music production, soccer</p>
-          <h2>Follow Me</h2>
-          <div className='about-socials'>
-            <a href="https://github.com/huntergroff" target="_blank" rel="noreferrer">
-              <BsGithub className='about-social-logo' />
-            </a>
-            <a href="https://www.instagram.com/nothuntergroff/" target="_blank" rel="noreferrer">
-              <BsInstagram className='about-social-logo' />
-            </a>
-            <a href="https://www.linkedin.com/in/hunter-groff/" target="_blank" rel="noreferrer">
-              <BsLinkedin className='about-social-logo' />
-            </a>
-          </div>
-        </div>
         <div className='container'>
           <div className='about-section'>
             <h4>Hi, I'm Hunter!</h4>
@@ -91,6 +63,21 @@ const About = (props) => {
               I hope you enjoy viewing my work, and please feel free to drop me a message via the "Contact" page!
               </p>
           </div>
+        </div>
+        <div className='mobile-blurbs container'>
+          <h2>Education</h2>
+          <p>Majoring in Computer Science and Interaction Design with a minor in Architecture and Urban History at Northeastern University</p>
+          <h2>Experience</h2>
+          <ul>
+            <li>Software Engineering Co-op for CarGurus</li>
+            <li>Web Developer for Synergy Center for Dance</li>
+            <li>Marketing Intern for Breezy Hill Marketing</li>
+            <li>Public Relations Coordinator for Kinematix Dance Troupe</li>
+          </ul>
+          <h2>Skills</h2>
+          <p>Adobe Creative Suite, HTML, CSS, JavaScript, Java, Python, React.js</p>
+          <h2>Passions</h2>
+          <p>Video editing, UI/UX design, dance, music production, soccer</p>
         </div>
       </div>
     </div>

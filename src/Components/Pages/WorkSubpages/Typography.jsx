@@ -40,6 +40,10 @@ import ICASS1 from '../../../Images/Typography/ica-ss-1.jpg'
 import ICASS2 from '../../../Images/Typography/ica-ss-2.jpg'
 import ICASS3 from '../../../Images/Typography/ica-ss-3.jpg'
 
+//import Codec Pro
+import Codec1 from '../../../Images/Typography/codec-pro-1.jpg'
+import Codec2 from '../../../Images/Typography/codec-pro-2.jpg'
+
 const FormCounterformGrid = ({ gridList }) => {
     return (
         <div className='form-counterform-grid'>
@@ -171,6 +175,11 @@ const Bodoni = () => {
 const Typography = () => {
   return (
     <div id="typography">
+        <div className='codec'>
+            <img src={Codec1} className='codec-img' alt='Codec Pro Specimen Page 1' />
+            <img src={Codec2} className='codec-img' alt='Codec Pro Specimen Page 2' />            
+        </div>
+        <p className='work-subtitle'>CODEC PRO SPECIMEN POSTERS</p>
         <Bodoni/>
         <p className='work-subtitle'>BODONI SPECIMEN POSTERS</p>
         <div className='summer-sessions'>

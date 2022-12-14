@@ -270,6 +270,17 @@ img.summer-workshop-small-fb {
 
 
 /**Typography**/
+
+.codec {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.codec img {
+    width: 49%;
+}
+
 .summer-sessions {
     width: 100%;
     display: flex;
@@ -316,8 +327,13 @@ img.summer-workshop-small-fb {
 }
 
 @media screen and (max-width:640px) {
-    .form-counterform-grids-container {
+    .form-counterform-grids-container, .codec {
         flex-direction: column;
+    }
+
+    .codec img {
+        width: 100%;
+        margin-bottom: 5%;
     }
 
     .grid-and-caption {

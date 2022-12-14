@@ -41,7 +41,7 @@ const Work = (props) => {
   
   return (
     <div id="work">
-      <h1 className='heading'>Work</h1>
+      <h1 className='heading'>Design</h1>
       <div className='container'>
         <div className='work-nav'>
           {WorkItems.map((workItem, index) => {

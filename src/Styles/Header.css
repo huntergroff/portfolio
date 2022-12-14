@@ -56,3 +56,28 @@
 #header li {
     margin: 20px 0;
 }
+
+/* Mobile: fill screen */
+@media screen and (max-width: 768px) {
+
+    #header {
+        width: 100%;
+        height: 100%;
+        right: calc(-100% + 36px);
+    }
+
+    #header.hide {
+        right: -100%;
+    }
+
+    #header ul {
+        text-align: center;
+        margin: auto;
+        font-size: 25px;
+    }
+
+    #header.expand .arrow-and-theme {
+        position: absolute;
+        left: 24px;
+    }
+}

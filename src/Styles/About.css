@@ -26,11 +26,6 @@
     top: 0px;
 }
 
-#huntergroff h3.mobile-name {
-    display: none;
-    margin: 0 0 100px 0;
-}
-
 .about-headshot {
     width: 380px;
     height: 570px;
@@ -58,10 +53,20 @@
 
 .mobile-blurbs {
     display: none;
-    margin-bottom: 150px;
 }
 
-.blurbs-and-image h2, .mobile-blurbs h2 {
+.mobile-blurbs h2 {
+    font-size: 8vw;
+    line-height: 12vw;
+    margin: 0;
+}
+
+.mobile-blurbs p, .mobile-blurbs li {
+    font-size: 4vw;
+    line-height: 6vw;
+}
+
+.blurbs-and-image h2 {
     margin: 20px 0 10px 0;
     font-weight: 800;
     font-size: 32px;
@@ -145,5 +150,30 @@
     .about-social-logo {
         margin-left: 0;
         margin-right: 12px;
+    }
+
+    .about-section {
+        padding-top: 0;
+    }
+
+    .about-section h4 {
+        font-size: 10vw;
+        line-height: 10vw;
+    }
+
+    .about-section p {
+        font-size: 4vw;
+        line-height: 6vw;
+    }
+
+    .about-headshot {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    #huntergroff .blurbs-and-image {
+        padding: 0 50px;
+        height: 90vw;
     }
 }

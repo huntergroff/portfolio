@@ -7,7 +7,7 @@ import { RiMenuFill } from 'react-icons/ri';
 import ThemeToggler from './ThemeToggler';
 
 const Header = (props) => {
-  const [expand, setExpand] = useState(true);
+  const [expand, setExpand] = useState(false);
   const toggleMenu = () => setExpand(!expand);
 
   return (

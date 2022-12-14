@@ -8,6 +8,7 @@ import Resume from './Components/Pages/Resume';
 import Work from './Components/Pages/Work';
 import Contact from './Components/Pages/Contact';
 import Projects from './Components/Pages/Projects';
+import Footer from './Components/Footer';
 
 export const ThemeContext = createContext(null);
 export const HomeContext = createContext(null);
@@ -30,6 +31,7 @@ function App() {
           <Route exact path="/contact" element={<Contact setHome={setHome}/>}/>
           <Route exact path="/projects" element={<Projects setHome={setHome}/>}/>
         </Routes>
+        <Footer home={home}/> 
       </body>
     </ThemeContext.Provider>
   );
