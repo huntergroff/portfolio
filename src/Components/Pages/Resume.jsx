@@ -169,8 +169,8 @@ const Resume = (props) => {
                 Node.js and Express.js.
               </li>
               <li>
-                Integrated Target RedCircle API to allow users to add items to
-                their wishlist from Target.com.
+                Integrated Target RedCircle API to allow users to interact with
+                data and products from Target.com
               </li>
             </ul>
             <br />
