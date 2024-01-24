@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import "../../Styles/Resume.css";
 import { TbFileDownload } from "react-icons/tb";
-import ResumePDF from "../../Content/Hunter Groff Resume 2022.pdf";
+import ResumePDF from "../../Content/Hunter Groff Resume Spring 2024.pdf";
 
 const Resume = (props) => {
   useEffect(() => {
@@ -70,7 +70,7 @@ const Resume = (props) => {
               <p className="date">September 2019 - May 2024</p>
             </div>
             <p className="text">
-              GPA: 3.9/4.0
+              GPA: 3.97/4.0
               <br />
               Major in Computer Science and Interaction Design, Minor in
               Architecture and Urban History
@@ -91,8 +91,8 @@ const Resume = (props) => {
               <br />
               Fundamentals of Computer Science 1 & 2, Object-Oriented Design,
               Algorithms and Data, Web Development, Fundamentals of Software
-              Engineering, Information Design Programming Basics, Typography 1 &
-              2, Interaction Design 1 & 2, Color and Composition
+              Engineering, Information Design, Programming Basics, Typography 1
+              & 2, Interaction Design 1 & 2, Artificial Intelligence
             </p>
             <br />
             <br />
@@ -131,11 +131,12 @@ const Resume = (props) => {
             <h3>Computer Science</h3>
             <ul>
               <li>
-                <i>Proficient With:</i> Java, JavaScript, HTML, CSS, React, Node
+                <i>Proficient With:</i> Java, JavaScript, HTML, CSS, React,
+                Node, Swift
               </li>
               <li>
-                <i>Familiar With:</i> Python, Typescript, Mongo DB, Tailwind /
-                Bootstrap CSS, Freemarker, Apache Struts, SQL
+                <i>Familiar With:</i> Python, Typescript, Mongo DB, Objective-C,
+                Tailwind / Bootstrap CSS, Freemarker, Apache Struts, SQL
               </li>
             </ul>
             <br />
@@ -146,7 +147,7 @@ const Resume = (props) => {
                 InDesign, XD, AutoCAD
               </li>
               <li>
-                <i>Familiar With:</i>Figma, After Effects, Rhino, Sketchup
+                <i>Familiar With:</i> Figma, After Effects, Rhino, Sketchup
               </li>
             </ul>
           </div>
@@ -162,15 +163,15 @@ const Resume = (props) => {
             <ul>
               <li>
                 Designed and developed a web application where users could
-                create and share wishlists.
+                create and share wishlists and follow other users.
               </li>
               <li>
-                Connected a Mongo database to the React.js frontend using
-                Node.js and Express.js.
+                Connected a Mongo database with 5 schemas to a React.js web app
+                using Node.js and Express.js with REST practices.
               </li>
               <li>
-                Integrated Target RedCircle API to allow users to interact with
-                data and products from Target.com
+                Integrated Target RedCircle API to fetch and cache data and
+                products from Target.com for use in user-created wishlists.
               </li>
             </ul>
             <br />
@@ -243,6 +244,27 @@ const Resume = (props) => {
           </div>
           <div className="resume-section" id="work-experience" ref={workRef}>
             <h2>Work Experience</h2>
+            <div className="title-and-date">
+              <h3>{`iOS Engineering Co-op | Notability (Ginger Labs, Inc.), San Francisco, CA`}</h3>
+              <p className="date">Jan. 2023 - June 2023</p>
+            </div>
+            <ul>
+              <li>
+                Owned and managed the code for the note page management user
+                interface. Implemented new designs, created and assigned
+                tickets, improved functionality, and authorized changes for this
+                area of the app.
+              </li>
+              <li>
+                Converted 10 files from Objective-C and UIKit to Swift and
+                SwiftUI, contributing to efforts to modernize the codebase.
+              </li>
+              <li>
+                Replaced local variables and functions with observed redux
+                values as part of company-wide shift to redux framwork.
+              </li>
+            </ul>
+            <br />
             <div className="title-and-date">
               <h3>Software Engineering Co-op | Cargurus, Boston, MA</h3>
               <p className="date">Jan. 2022 - July 2022</p>
@@ -379,11 +401,11 @@ const Resume = (props) => {
             <h3>Founding Director | HTLO Dance Group, Jericho, VT</h3>
             <ul>
               <li>
-                Organize performers, choreograph dances, and edit videos using
-                Adobe Premiere and After Effects.
+                Organized performers, choreographed dances, and edited videos
+                using Adobe Premiere and After Effects.
               </li>
               <li>
-                Manage a{" "}
+                Filmed, edited, and published content for a{" "}
                 <a
                   href="https://www.youtube.com/channel/UChogrSS5x2te1WA8DymA6hw"
                   target="_blank"
@@ -391,11 +413,11 @@ const Resume = (props) => {
                 >
                   YouTube Page
                 </a>{" "}
-                with 27,000 video views.
+                with 29,000 video views.
               </li>
               <li>
-                Conceptualized and organized 3 summer dance camps, generating
-                $6,000 profit.
+                Spearheaded, scheduled, and organized 3 summer camps that
+                generated $6,000 profit.
               </li>
             </ul>
           </div>
