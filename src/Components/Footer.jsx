@@ -1,5 +1,5 @@
 import React from "react";
-import ResumePDF from "../Content/Hunter Groff Resume Spring 2024.pdf";
+import ResumePDF from "../Content/Hunter Groff Resume 2024.pdf";
 import { NavLink } from "react-router-dom";
 import "../Styles/Footer.css";
 import { MenuItems } from "../Content/MenuItems";

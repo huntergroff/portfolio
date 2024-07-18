@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import "../../Styles/Resume.css";
 import { TbFileDownload } from "react-icons/tb";
-import ResumePDF from "../../Content/Hunter Groff Resume Spring 2024.pdf";
+import ResumePDF from "../../Content/Hunter Groff Resume 2024.pdf";
 
 const Resume = (props) => {
   useEffect(() => {
@@ -57,7 +57,7 @@ const Resume = (props) => {
         <div className="container">
           <a
             className="download-button"
-            download="Hunter Groff Resume 2022.pdf"
+            download="Hunter Groff Resume 2024.pdf"
             href={ResumePDF}
           >
             <TbFileDownload className="download-icon" />
@@ -70,15 +70,15 @@ const Resume = (props) => {
               <p className="date">September 2019 - May 2024</p>
             </div>
             <p className="text">
-              GPA: 3.97/4.0
+              GPA: 3.98/4.0
               <br />
-              Major in Computer Science and Interaction Design, Minor in
+              B.S. Computer Science and Interaction Design, Minor in
               Architecture and Urban History
               <br />
               <br />
               <i>Awards</i>
               <br />
-              7/7 Semesters Dean's List
+              8/8 Semesters Dean's List
               <br />
               Northeastern Merit Scholarship Recipient
               <br />
@@ -91,35 +91,9 @@ const Resume = (props) => {
               <br />
               Fundamentals of Computer Science 1 & 2, Object-Oriented Design,
               Algorithms and Data, Web Development, Fundamentals of Software
-              Engineering, Information Design, Programming Basics, Typography 1
-              & 2, Interaction Design 1 & 2, Artificial Intelligence
-            </p>
-            <br />
-            <br />
-            <div className="title-and-date">
-              <h3>Mt. Mansfield Union High School | Jericho, VT</h3>
-              <p className="date">September 2015 - May 2019</p>
-            </div>
-            <p className="text">
-              GPA: 4.1/4.3
-              <br />
-              <br />
-              <i>Awards</i>
-              <br />
-              Summa Cum Laude
-              <br />
-              National Merit Scholarship Recipient
-              <br />
-              <br />
-              National Honor Society
-              <br />
-              Cougar House Student Council
-              <br />
-              Varsity Soccer (Captain)
-              <br />
-              Varsity Dance (Captain)
-              <br />
-              <br />
+              Engineering, Information Design, Artificial Intelligence,
+              Typography 1 & 2, Interaction Design 1 & 2, Artificial
+              Intelligence
             </p>
           </div>
           <div
@@ -131,23 +105,23 @@ const Resume = (props) => {
             <h3>Computer Science</h3>
             <ul>
               <li>
-                <i>Proficient With:</i> Java, JavaScript, HTML, CSS, React,
-                Node, Swift
+                <i>Proficient In:</i> Java, JavaScript, Typescript, Python,
+                HTML, CSS, React, Node, Swift
               </li>
               <li>
-                <i>Familiar With:</i> Python, Typescript, Mongo DB, Objective-C,
-                Tailwind / Bootstrap CSS, Freemarker, Apache Struts, SQL
+                <i>Familiar With:</i> Mongo DB, SQL, Objective-C, Tailwind /
+                Bootstrap CSS, Freemarker, Apache Struts
               </li>
             </ul>
             <br />
             <h3>Design</h3>
             <ul>
               <li>
-                <i>Proficient With:</i> Photoshop, Illustrator, Premiere,
+                <i>Proficient In:</i> Figma, Photoshop, Illustrator, Premiere,
                 InDesign, XD, AutoCAD
               </li>
               <li>
-                <i>Familiar With:</i> Figma, After Effects, Rhino, Sketchup
+                <i>Familiar With:</i> After Effects, Rhino, Sketchup
               </li>
             </ul>
           </div>
@@ -425,7 +399,7 @@ const Resume = (props) => {
             <h2>Interests</h2>
             <p className="text">
               Hip-Hop Music Production, Dance, Video Editing, English Premier
-              League Soccer, Skiing, Playing Piano
+              League Soccer, Skiing, Piano
             </p>
           </div>
         </div>
